@@ -1,2 +1,7 @@
 # Protein_Prediction
-Predicts amount of protein each recipe has
+### Names: Ethan Deng, Jason Gu
+Predicts amount of protein each recipe has a lot of protein
+
+```python
+
+```
