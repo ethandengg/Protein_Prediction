@@ -10,7 +10,6 @@ Here is our exploratory data analysis on this dataset: [Here](https://ethandengg
 - [Final Model](#finalmodel)
 - [Fairness Analysis](#fairnessanalysis)
 
-- 
 <!-- #region -->
 # Framing the Problem <a name="framingtheproblem"></a>
 In our project, we will build a model that will predict the amount of protein in a recipe by looking at the features in the nutrition column. The nutrition column includes the calories, total_fat, sugar, sodium, saturated fats, and carbohydrates. These features seem to have a correlation to the amount of protein there is in a recipe. This is a regression problem, not a classification problem because we are trying to predict a quantitative value (amount of protein in grams).
