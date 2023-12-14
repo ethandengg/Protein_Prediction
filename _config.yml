@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: [The title of your site]
-description: Is there a coorelation between the amount of protein in a recipe and the Average Rating or Cooking Time?
+description: In this project we are using a model to predict amount of protein in a recipe from other given features
 
 gem "github-pages", group: :jekyll_plugins
