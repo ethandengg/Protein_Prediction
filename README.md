@@ -4,7 +4,13 @@
 # Overview
 Here is our exploratory data analysis on this dataset: [Here](https://ethandengg.github.io/Protein_Analysis/)
 
+# Table of Contents
+- [Framing the Problem](#framingtheproblem)
+- [Baseline Model](#baselinemodel)
+- [Final Model](#finalmodel)
+- [Fairness Analysis](#fairnessanalysis)
 
+- 
 <!-- #region -->
 # Framing the Problem <a name="framingtheproblem"></a>
 In our project, we will build a model that will predict the amount of protein in a recipe by looking at the features in the nutrition column. The nutrition column includes the calories, total_fat, sugar, sodium, saturated fats, and carbohydrates. These features seem to have a correlation to the amount of protein there is in a recipe. This is a regression problem, not a classification problem because we are trying to predict a quantitative value (amount of protein in grams).
@@ -81,7 +87,7 @@ Comparing the performance of the baseline model to the new model:
 <!-- #endregion -->
 
 <!-- #region -->
-# Fairness Analysis
+# Fairness Analysis <a name="fairnessanalysis"></a>
 In this analysis, we are comparing the RMSE of two groups: meat recipes (Group X) and non-meat recipes (Group Y). The meat recipes consist are conducted based on whether or not the words 'beef', 'chicken', 'pork', or 'fish' appear in the ingredients column. RMSE is used as the evaluation metric to measure the difference in prediction accuracy between the two groups. We are interested in determining whether there is a significant difference in the prediction accuracy of protein content (as measured by RMSE) between these two groups.
 
 
