@@ -2,7 +2,7 @@
 ### Names: Ethan Deng, Jason Gu
 
 # Overview
-Here is our exploratory data analysis on this dataset: https://ethandengg.github.io/Protein_Analysis/
+Here is our exploratory data analysis on this dataset: [Here](https://ethandengg.github.io/Protein_Analysis/)
 
 
 <!-- #region -->
