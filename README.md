@@ -32,6 +32,8 @@ In our project, we will build a model that will predict the amount of protein in
 
 
 - The evaluation metrics are shown below:
+
+
 <img width="444" alt="Screenshot 2023-12-13 at 4 19 21 PM" src="https://github.com/JingChengGu/Protein_Prediction/assets/64511500/78778385-e955-4051-8503-3a95c4e5782b">
 <!-- #endregion -->
 
@@ -67,17 +69,15 @@ The hyperparameters that ended up performing the best in the new model are as fo
 
 Comparing the performance of the baseline model to the new model:
 
-**Baseline Model**:
 
-![image.jpeg](attachment:image.jpeg)
+- The evaluation metrics are shown below:
+<img width="660" alt="Screenshot 2023-12-13 at 8 00 57 PM" src="https://github.com/JingChengGu/Protein_Prediction/assets/64511500/05be2616-ce64-46aa-9c37-a4bc606d9d9b">
 
-
-**New Model**:
-
-![image-2.jpeg](attachment:image-2.jpeg)
 
 
   
 - **Performance**: The new model significantly outperforms the baseline model in all metrics. The RMSE, which measures the model's prediction error, has substantially decreased from 24.673 to 8.435. The R2, which indicates the proportion of the variance in the target variable explained by the model, has increased from 0.281 to 0.916. Additionally, the MAE, which measures the average absolute error of predictions, has reduced from 19.212 to 4.792. Overall, the new model with hyperparameter tuning demonstrates much better predictive performance, indicating that the grid search for hyperparameters has resulted in a substantially improved model compared to the baseline model.
 
 <!-- #endregion -->
+
+
